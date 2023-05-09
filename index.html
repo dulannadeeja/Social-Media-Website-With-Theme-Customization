@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devdan Social App</title>
+    <!-- iconscout cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <!-- custome stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--start nav section -->
+    <nav class="nav-section">
+      <div class="container">
+        <div class="nav-brand">
+          <h2 class="logo">DevDun</h2>
+        </div>
+        <div class="search-bar">
+          <i class="uil uil-search"></i>
+          <input
+            type="search"
+            name="search"
+            id="searchInput"
+            placeholder="Search for creators, inspirations, and projects"
+          />
+        </div>
+        <div class="nav-right">
+          <div class="create-post">
+            <label for="postTextInput" class="button create-post__button"
+              >Create</label
+            >
+          </div>
+          <div class="profile-picture">
+            <img src="./images/profile.jpg" alt="profile picture" />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--end nav section -->
+
+    <!--start main section -->
+    <main class="main-section">
+      <div class="container">
+        <!--start left sidebar section -->
+        <aside class="left-sidebar-section">
+          <div class="profile-info card">
+            <div class="profile-picture">
+              <img src="./images/profile.jpg" alt="profile picture" />
+            </div>
+            <div class="profile-name">
+              <h4 class="profile-name__title font-size-small">Dulan nadeeja</h4>
+              <p class="profile-name__subtitle font-size-small text-muted">
+                @Fullstack Developer
+              </p>
+            </div>
+          </div>
+
+          <div class="sidenav card">
+            <ul class="sidenav-list">
+              <li class="sidenav-item">
+                <a href="#" class="sidenav-link text-dark">
+                  <i class="uil uil-home font-size-large"></i>
+                  <span class="sidenav-link__text font-weight-semiBold"
+                    >Home</span
+                  >
+                </a>
+              </li>
+              <li class="sidenav-item active">
+                <a href="#" class="sidenav-link text-dark">
+                  <i class="uil uil-globe font-size-large"></i>
+                  <span class="sidenav-link__text font-weight-semiBold"
+                    >Explore</span
+                  >
+                </a>
+              </li>
+              <li class="sidenav-item notifications">
+                <a href="#" class="sidenav-link text-dark">
+                  <i class="uil uil-bell font-size-large">
+                    <span class="notification-count badge font-size-small"
+                      >10+</span
+                    >
+                  </i>
+                  <span class="sidenav-link__text font-weight-semiBold"
+                    >Notifications</span
+                  >
+                </a>
+                <!-- start notifications popup -->
+                <div class="notification-popup card">
+                  <ul class="notification-list">
+                    <li class="notification">
+                      <div class="notification__avatar profile-picture">
+                        <img src="./images/profile.jpg" alt="profile picture" />
+                      </div>
+                      <div class="notification__content">
+                        <p class="notification__content__text">
+                          <span class="font-weight-semiBold"
+                            >Dulan Nadeeja</span
+                          >
+                          liked your post
+                        </p>
+                        <p
+                          class="notification__content__time text-muted font-size-small"
+                        >
+                          2 hours ago
+                        </p>
+                      </div>
+                    </li>
+                    <li class="notification">
+                      <div class="notification__avatar profile-picture">
+                        <img src="./images/profile.jpg" alt="profile picture" />
+                      </div>
+                      <div class="notification__content">
+                        <p class="notification__content__text">
+                          <span class="font-weight-semiBold"
+                            >Dulan Nadeeja</span
+                          >
+                          liked your post
+                        </p>
+                        <p
+                          class="notification__content__time text-muted font-size-small"
+                        >
+                          2 hours ago
+                        </p>
+                      </div>
+                    </li>
+                    <li class="notification">
+                      <div class="notification__avatar profile-picture">
+                        <img src="./images/profile.jpg" alt="profile picture" />
+                      </div>
+                      <div class="notification__content">
+                        <p class="notification__content__text">
+                          <span class="font-weight-semiBold"
+                            >Dulan Nadeeja</span
+                          >
+                          liked your post
+                        </p>
+                        <p
+                          class="notification__content__time text-muted font-size-small"
+                        >
+                          2 hours ago
+                        </p>
+                      </div>
+                    </li>
+                    <li class="notification">
+                      <div class="notification__avatar profile-picture">
+                        <img src="./images/profile.jpg" alt="profile picture" />
+                      </div>
+                      <div class="notification__content">
+                        <p class="notification__content__text">
+                          <span class="font-weight-semiBold"
+                            >Dulan Nadeeja</span
+                          >
+                          liked your post
+                        </p>
+                        <p
+                          class="notification__content__time text-muted font-size-small"
+                        >
+                          2 hours ago
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- end notifications popup -->
+              </li>
+              <li class="sidenav-item">
+                <a href="#" class="sidenav-link text-dark">
+                  <i class="uil uil-comment-alt font-size-large">
+                    <span class="notification-count badge font-size-small"
+                      >4</span
+                    >
+                  </i>
+                  <span class="sidenav-link__text font-weight-semiBold"
+                    >Messages</span
+                  >
+                </a>
+              </li>
+              <li class="sidenav-item">
+                <a href="#" class="sidenav-link text-dark">
+                  <i class="uil uil-bookmark font-size-large"></i>
+                  <span class="sidenav-link__text font-weight-semiBold"
+                    >Bookmarks</span
+                  >
+                </a>
+              </li>
+              <li class="sidenav-item">
+                <a href="#" class="sidenav-link text-dark">
+                  <i class="uil uil-chart-line font-size-large"></i>
+                  <span class="sidenav-link__text font-weight-semiBold"
+                    >Analytics</span
+                  >
+                </a>
+              </li>
+              <li class="sidenav-item">
+                <a href="#" class="sidenav-link text-dark">
+                  <i class="uil uil-palette font-size-large"></i>
+                  <span class="sidenav-link__text font-weight-semiBold"
+                    >Theme</span
+                  >
+                </a>
+              </li>
+              <li class="sidenav-item">
+                <a href="#" class="sidenav-link text-dark">
+                  <i class="uil uil-setting font-size-large"></i>
+                  <span class="sidenav-link__text font-weight-semiBold"
+                    >Settings</span
+                  >
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="create-post">
+            <label for="postTextInput" class="button create-post__button"
+              >Create Post</label
+            >
+          </div>
+        </aside>
+        <!--end left sidebar section -->
+
+        <!-- start feed section -->
+        <section class="feed-section">
+          <!--start story section -->
+          <div class="story-section">
+            <ul class="story-list">
+              <li class="story-item card">
+                <div class="profile-picture">
+                  <img src="./images/profile.jpg" alt="profile picture" />
+                </div>
+                <div class="create-story text-white font-weight-semiBold">
+                  <i class="uil uil-plus-circle font-size-large"></i>
+                  <p class="create-story__title text-center">Create Story</p>
+                </div>
+              </li>
+              <li class="story-item card">
+                <div class="profile-picture">
+                  <img src="./images/profile-1.jpg" alt="profile picture" />
+                </div>
+
+                <div class="profile-name">
+                  <p class="profile-name__title font-size-small text-white">
+                    Dulan nadeeja
+                  </p>
+                </div>
+              </li>
+              <li class="story-item card">
+                <div class="profile-picture">
+                  <img src="./images/profile-2.jpg" alt="profile picture" />
+                </div>
+
+                <div class="profile-name">
+                  <p class="profile-name__title font-size-small text-white">
+                    Dulan nadeeja
+                  </p>
+                </div>
+              </li>
+              <li class="story-item card">
+                <div class="profile-picture">
+                  <img src="./images/profile-3.jpg" alt="profile picture" />
+                </div>
+
+                <div class="profile-name">
+                  <p class="profile-name__title font-size-small text-white">
+                    Dulan nadeeja
+                  </p>
+                </div>
+              </li>
+              <li class="story-item card">
+                <div class="profile-picture">
+                  <img src="./images/profile-4.jpg" alt="profile picture" />
+                </div>
+
+                <div class="profile-name">
+                  <p class="profile-name__title font-size-small text-white">
+                    Dulan nadeeja
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!--end story section -->
+
+          <!-- start post create section -->
+          <div class="post-create-section card">
+            <div class="profile-picture">
+              <img src="./images/profile.jpg" alt="profile picture" />
+            </div>
+            <form action="">
+              <input
+                type="text"
+                name="post-text"
+                id="postTextInput"
+                class="font-size-default"
+                placeholder="What's on your mind dulan?"
+              />
+              <input type="submit" value="submit" class="button" />
+            </form>
+          </div>
+          <!-- end post create section -->
+
+          <!--start post section -->
+          <div class="posts-section">
+            <ul class="posts">
+              <!-- post #01 -->
+              <li class="post card">
+                <div class="post-info">
+                  <div class="post-creator-info">
+                    <div class="profile-picture">
+                      <img src="./images/profile.jpg" alt="profile picture" />
+                    </div>
+                    <div class="profile-name">
+                      <h5 class="profile-name__title">Luvi botton</h5>
+                      <p class="post-time text-muted font-size-small">
+                        Colombo, 23 MINUTES AGO
+                      </p>
+                    </div>
+                  </div>
+                  <i class="uil uil-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                  <div class="post-content__image photo">
+                    <img src="./images/feed-1.jpg" alt="post image" />
+                  </div>
+                  <div class="post-content__action-bar">
+                    <div class="action-bar__left">
+                      <i class="uil uil-heart"></i>
+                      <i class="uil uil-comment-lines"></i>
+                      <i class="uil uil-share-alt"></i>
+                    </div>
+                    <div class="action-bar__left">
+                      <i class="uil uil-bookmark"></i>
+                    </div>
+                  </div>
+
+                  <div class="post-reactions">
+                    <div class="post-reactions__profiles">
+                      <div class="profile-picture">
+                        <img
+                          src="./images/profile-1.jpg"
+                          alt="profile picture"
+                        />
+                      </div>
+                      <div class="profile-picture">
+                        <img
+                          src="./images/profile-2.jpg"
+                          alt="profile picture"
+                        />
+                      </div>
+                      <div class="profile-picture">
+                        <img
+                          src="./images/profile-3.jpg"
+                          alt="profile picture"
+                        />
+                      </div>
+                    </div>
+                    <p class="post-reactions__text">
+                      Liked by
+                      <span class="font-weight-semiBold">Dulan nadeeja</span>
+                      and <span class="font-weight-semiBold">1,449 others</span>
+                    </p>
+                  </div>
+                  <p class="post-content__text">
+                    <span class="font-weight-semiBold">Luvi botton</span>
+                    im a freelance web developer and graphic designer. i have 3
+                    years experience in this field. i have done many projects
+                    for my clients. #webDeveloper
+                  </p>
+                  <div class="post-comments">
+                    <p class="text-muted">View all 169 comments</p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- post #02 -->
+              <li class="post card">
+                <div class="post-info">
+                  <div class="post-creator-info">
+                    <div class="profile-picture">
+                      <img src="./images/profile.jpg" alt="profile picture" />
+                    </div>
+                    <div class="profile-name">
+                      <h5 class="profile-name__title">Luvi botton</h5>
+                      <p class="post-time text-muted font-size-small">
+                        Colombo, 23 MINUTES AGO
+                      </p>
+                    </div>
+                  </div>
+                  <i class="uil uil-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                  <div class="post-content__image">
+                    <img src="./images/feed-2.jpg" alt="post image" />
+                  </div>
+                  <div class="post-content__action-bar">
+                    <div class="action-bar__left">
+                      <i class="uil uil-heart"></i>
+                      <i class="uil uil-comment-lines"></i>
+                      <i class="uil uil-share-alt"></i>
+                    </div>
+                    <div class="action-bar__left">
+                      <i class="uil uil-bookmark"></i>
+                    </div>
+                  </div>
+
+                  <div class="post-reactions">
+                    <div class="post-reactions__profiles">
+                      <div class="profile-picture">
+                        <img
+                          src="./images/profile-1.jpg"
+                          alt="profile picture"
+                        />
+                      </div>
+                      <div class="profile-picture">
+                        <img
+                          src="./images/profile-2.jpg"
+                          alt="profile picture"
+                        />
+                      </div>
+                      <div class="profile-picture">
+                        <img
+                          src="./images/profile-3.jpg"
+                          alt="profile picture"
+                        />
+                      </div>
+                    </div>
+                    <p class="post-reactions__text">
+                      Liked by
+                      <span class="font-weight-semiBold">Dulan nadeeja</span>
+                      and <span class="font-weight-semiBold">1,449 others</span>
+                    </p>
+                  </div>
+                  <p class="post-content__text">
+                    <span class="font-weight-semiBold">Luvi botton</span>
+                    im a freelance web developer and graphic designer. i have 3
+                    years experience in this field. i have done many projects
+                    for my clients. #webDeveloper
+                  </p>
+                  <div class="post-comments">
+                    <p class="text-muted">View all 169 comments</p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- post #03 -->
+              <li class="post card">
+                <div class="post-info">
+                  <div class="post-creator-info">
+                    <div class="profile-picture">
+                      <img src="./images/profile.jpg" alt="profile picture" />
+                    </div>
+                    <div class="profile-name">
+                      <h5 class="profile-name__title">Luvi botton</h5>
+                      <p class="post-time text-muted font-size-small">
+                        Colombo, 23 MINUTES AGO
+                      </p>
+                    </div>
+                  </div>
+                  <i class="uil uil-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                  <div class="post-content__image">
+                    <img src="./images/feed-3.jpg" alt="post image" />
+                  </div>
+                  <div class="post-content__action-bar">
+                    <div class="action-bar__left">
+                      <i class="uil uil-heart"></i>
+                      <i class="uil uil-comment-lines"></i>
+                      <i class="uil uil-share-alt"></i>
+                    </div>
+                    <div class="action-bar__left">
+                      <i class="uil uil-bookmark"></i>
+                    </div>
+                  </div>
+
+                  <div class="post-reactions">
+                    <div class="post-reactions__profiles">
+                      <div class="profile-picture">
+                        <img
+                          src="./images/profile-1.jpg"
+                          alt="profile picture"
+                        />
+                      </div>
+                      <div class="profile-picture">
+                        <img
+                          src="./images/profile-2.jpg"
+                          alt="profile picture"
+                        />
+                      </div>
+                      <div class="profile-picture">
+                        <img
+                          src="./images/profile-3.jpg"
+                          alt="profile picture"
+                        />
+                      </div>
+                    </div>
+                    <p class="post-reactions__text">
+                      Liked by
+                      <span class="font-weight-semiBold">Dulan nadeeja</span>
+                      and <span class="font-weight-semiBold">1,449 others</span>
+                    </p>
+                  </div>
+                  <p class="post-content__text">
+                    <span class="font-weight-semiBold">Luvi botton</span>
+                    im a freelance web developer and graphic designer. i have 3
+                    years experience in this field. i have done many projects
+                    for my clients. <span class="hashtag">#webDeveloper</span>
+                  </p>
+                  <div class="post-comments">
+                    <p class="text-muted">View all 169 comments</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!--end post section -->
+        </section>
+        <!--end feed section -->
+
+        <!--start right sidebar section -->
+        <aside class="right-sidebar-section">
+          <!--start messages section -->
+          <div class="messages-section card">
+            <div class="messages-section__header">
+              <h5 class="messages-section__title">Messages</h5>
+              <i class="uil uil-message"></i>
+            </div>
+            <div class="messages-section__search">
+              <i class="uil uil-search"></i>
+              <input
+                type="search"
+                placeholder="Search messages"
+                id="messageSearchInput"
+              />
+            </div>
+            <div class="messages-section__filter">
+              <ul class="filter-list">
+                <li class="filter-list__item active"><h6>All</h6></li>
+                <li class="filter-list__item text-primary">
+                  <h6>Unread(4)</h6>
+                </li>
+                <li class="filter-list__item text-primary">
+                  <h6>Requests(3)</h6>
+                </li>
+              </ul>
+            </div>
+            <ul class="messages-section__list">
+              <li class="message">
+                <div class="message__profile-picture">
+                  <div class="profile-picture">
+                    <img src="./images/profile-1.jpg" alt="profile picture" />
+                  </div>
+                </div>
+                <div class="message__content">
+                  <h6 class="message__name">Dulan nadeeja</h6>
+                  <p
+                    class="message__text font-size-small font-weight-regular text-muted"
+                  >
+                    send me the project files?
+                  </p>
+                </div>
+              </li>
+              <li class="message">
+                <div class="message__profile-picture">
+                  <div class="profile-picture">
+                    <img src="./images/profile-1.jpg" alt="profile picture" />
+                  </div>
+                  <div class="active"></div>
+                </div>
+                <div class="message__content">
+                  <h6 class="message__name">Dulan nadeeja</h6>
+                  <p
+                    class="message__text font-size-small font-weight-regular text-muted"
+                  >
+                    send me the project files?
+                  </p>
+                </div>
+              </li>
+              <li class="message">
+                <div class="message__profile-picture">
+                  <div class="profile-picture">
+                    <img src="./images/profile-1.jpg" alt="profile picture" />
+                  </div>
+                </div>
+                <div class="message__content">
+                  <h6 class="message__name">Dulan nadeeja</h6>
+                  <p class="message__text font-size-small font-weight-semiBold">
+                    send me the project files?
+                  </p>
+                </div>
+              </li>
+              <li class="message">
+                <div class="message__profile-picture">
+                  <div class="profile-picture">
+                    <img src="./images/profile-1.jpg" alt="profile picture" />
+                  </div>
+                </div>
+                <div class="message__content">
+                  <h6 class="message__name">Dulan nadeeja</h6>
+                  <p
+                    class="message__text font-size-small font-weight-regular text-muted"
+                  >
+                    send me the project files?
+                  </p>
+                </div>
+              </li>
+              <li class="message">
+                <div class="message__profile-picture">
+                  <div class="profile-picture">
+                    <img src="./images/profile-1.jpg" alt="profile picture" />
+                  </div>
+                  <div class="active"></div>
+                </div>
+                <div class="message__content">
+                  <h6 class="message__name">Dulan nadeeja</h6>
+                  <p
+                    class="message__text font-size-small font-weight-regular text-muted"
+                  >
+                    send me the project files?
+                  </p>
+                </div>
+              </li>
+              <li class="message">
+                <div class="message__profile-picture">
+                  <div class="profile-picture">
+                    <img src="./images/profile-1.jpg" alt="profile picture" />
+                  </div>
+                  <div class="active"></div>
+                </div>
+                <div class="message__content">
+                  <h6 class="message__name">Dulan nadeeja</h6>
+                  <p class="message__text font-size-small font-weight-semiBold">
+                    send me the project files?
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!--end messages section -->
+
+          <!--start request section -->
+          <div class="request-section">
+            <div class="request-section__header">
+              <h5 class="request-section__title text-muted">Requests</h5>
+            </div>
+            <ul class="request-section__request_list">
+              <li class="request card">
+                <div class="request__header">
+                  <div class="request__profile-picture profile-picture">
+                    <img src="./images/profile-1.jpg" alt="profile picture" />
+                  </div>
+                  <div class="request__content">
+                    <h6 class="request__name">Dulan nadeeja</h6>
+                    <p class="request__text font-size-small text-muted">
+                      2 mutual friends
+                    </p>
+                  </div>
+                </div>
+                <div class="request__action">
+                  <button class="button">Confirm</button>
+                  <button class="button btn-muted">Delete</button>
+                </div>
+              </li>
+              <li class="request card">
+                <div class="request__header">
+                  <div class="request__profile-picture profile-picture">
+                    <img src="./images/profile-1.jpg" alt="profile picture" />
+                  </div>
+                  <div class="request__content">
+                    <h6 class="request__name">Dulan nadeeja</h6>
+                    <p class="request__text font-size-small text-muted">
+                      2 mutual friends
+                    </p>
+                  </div>
+                </div>
+                <div class="request__action">
+                  <button class="button">Confirm</button>
+                  <button class="button btn-muted">Delete</button>
+                </div>
+              </li>
+              <li class="request card">
+                <div class="request__header">
+                  <div class="request__profile-picture profile-picture">
+                    <img src="./images/profile-1.jpg" alt="profile picture" />
+                  </div>
+                  <div class="request__content">
+                    <h6 class="request__name">Dulan nadeeja</h6>
+                    <p class="request__text font-size-small text-muted">
+                      2 mutual friends
+                    </p>
+                  </div>
+                </div>
+                <div class="request__action">
+                  <button class="button">Confirm</button>
+                  <button class="button btn-muted">Delete</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <!--end right sidebar section -->
+      </div>
+    </main>
+    <!--end main section -->
+
+    <!--start theme customize window-->
+    <div class="theme-customize-section">
+      <div class="theme-controls-container card">
+        <button class="theme-customize-section__close-btn button btn-muted">
+          <i class="uil uil-times"></i>
+          <span>Close</span>
+        </button>
+        <div class="theme-customize-section__header">
+          <h5 class="theme-customize-section__title">Theme Customize</h5>
+          <div class="theme-customize-section__description_text">
+            you can customize your colors fonts and backgroud color theme by
+            adjust following settings
+          </div>
+        </div>
+  
+        <!-- font customize bar -->
+        <h6 class="theme-customize-section__titles">Font Size</h6>
+        <div class="font-customize-bar card">
+          <p class="smallest-font-show font-size-small">Aa</p>
+          <ul class="font-size-list">
+            <li class="font-size-1"></li>
+            <li class="font-size-2"></li>
+            <li class="font-size-3 active"></li>
+            <li class="font-size-4"></li>
+            <li class="font-size-5"></li>
+          </ul>
+          <p class="largest-font-show font-size-large">Aa</p>
+        </div>
+  
+        <!-- color customize bar -->
+        <h6 class="theme-customize-section__titles">Color</h6>
+        <div class="color-customize-bar card">
+          <ul class="color-list">
+            <li class="color-1"></li>
+            <li class="color-2 active"></li>
+            <li class="color-3"></li>
+            <li class="color-4"></li>
+            <li class="color-5"></li>
+          </ul>
+        </div>
+  
+        <!-- background customize bar -->
+        <h6 class="theme-customize-section__titles">Background</h6>
+        <div class="background-customize-bar card">
+          <div class="background-color card active">
+            <div class="background-color-preview"></div>
+            <div class="background-color__title">Light</div>
+          </div>
+          <div class="background-color card">
+            <div class="background-color-preview"></div>
+            <div class="background-color__title">Dim</div>
+          </div>
+          <div class="background-color card">
+            <div class="background-color-preview"></div>
+            <div class="background-color__title">Lights Out</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
