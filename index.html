@@ -11,12 +11,19 @@
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
     <!-- custome stylesheet -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- stylesheets for different screen sizes -->
+    <link
+      rel="stylesheet"
+      href="./css/tablet.css"
+      media="(max-width: 1200px)"
+    />
+    <link rel="stylesheet" href="./css/mobile.css" media="(max-width: 992px)" />
   </head>
   <body>
     <!--start nav section -->
     <nav class="nav-section">
-      <div class="container">
+      <div class="nav-container">
         <div class="nav-brand">
           <h2 class="logo">DevDun</h2>
         </div>
@@ -45,7 +52,7 @@
 
     <!--start main section -->
     <main class="main-section">
-      <div class="container">
+      <div class="main-container">
         <!--start left sidebar section -->
         <aside class="left-sidebar-section">
           <div class="profile-info card">
@@ -298,7 +305,7 @@
                 class="font-size-default"
                 placeholder="What's on your mind dulan?"
               />
-              <input type="submit" value="submit" class="button" />
+              <input type="submit" value="Submit" class="button" />
             </form>
           </div>
           <!-- end post create section -->
@@ -539,12 +546,12 @@
             </div>
             <div class="messages-section__filter">
               <ul class="filter-list">
-                <li class="filter-list__item active"><h6>All</h6></li>
+                <li class="filter-list__item active"><h6 class="font-size-small">All</h6></li>
                 <li class="filter-list__item text-primary">
-                  <h6>Unread(4)</h6>
+                  <h6 class="font-size-small">Unread(4)</h6>
                 </li>
                 <li class="filter-list__item text-primary">
-                  <h6>Requests(3)</h6>
+                  <h6 class="font-size-small">Requests(3)</h6>
                 </li>
               </ul>
             </div>
@@ -721,7 +728,7 @@
             adjust following settings
           </div>
         </div>
-  
+
         <!-- font customize bar -->
         <h6 class="theme-customize-section__titles">Font Size</h6>
         <div class="font-customize-bar card">
@@ -735,7 +742,7 @@
           </ul>
           <p class="largest-font-show font-size-large">Aa</p>
         </div>
-  
+
         <!-- color customize bar -->
         <h6 class="theme-customize-section__titles">Color</h6>
         <div class="color-customize-bar card">
@@ -747,7 +754,7 @@
             <li class="color-5"></li>
           </ul>
         </div>
-  
+
         <!-- background customize bar -->
         <h6 class="theme-customize-section__titles">Background</h6>
         <div class="background-customize-bar card">
@@ -766,5 +773,9 @@
         </div>
       </div>
     </div>
+    <!--end theme customize window-->
+
+    <!-- script file -->
+    <script src="./app.js"></script>
   </body>
 </html>

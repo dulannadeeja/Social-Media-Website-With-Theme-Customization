@@ -1,0 +1,33 @@
+/* media quires for small laptops and big tablets */
+
+@media screen and (max-width: 1200px){
+
+    .nav-section .nav-container{
+        width: 96%;
+    }
+
+    .main-section .main-container {
+        width: 96%;
+        grid-template-columns: 10% minmax(auto, calc(60% - 2rem)) 30%;
+        gap: 1rem;
+      }
+
+      
+      .main-section .main-container .left-sidebar-section .profile-info
+      {
+        display: none;
+      }
+
+      .main-section .main-container .left-sidebar-section .create-post
+      {
+        display: none;
+      }
+
+      .sidenav-link{
+        justify-content: center;
+      }
+
+      .sidenav-link__text{
+        display: none;
+      }
+  }

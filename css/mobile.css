@@ -1,0 +1,36 @@
+/* media quires for small tablets and mobile devices */
+
+@media screen and (max-width: 992px) {
+  .nav-section .nav-container {
+    width: 99%;
+  }
+
+  .nav-section .nav-container .search-bar {
+    display: none;
+  }
+
+  .main-section .main-container {
+    width: 99%;
+    grid-template-columns: minmax(auto, calc(100% - 6rem)) 5rem;
+    gap: 1rem;
+  }
+
+  .main-section .main-container .left-sidebar-section {
+    grid-column: 2;
+    position: fixed;
+    right: 0;
+    top: 7rem;
+  }
+
+  .main-container .posts-section {
+    grid-column: 1;
+  }
+
+  .main-container .right-sidebar-section {
+    display: none;
+  }
+
+  .main-section .feed-section .story-section .story-list .story-item {
+    height: clamp(6rem, 10rem, 12rem);
+  }
+}
