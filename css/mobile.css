@@ -1,6 +1,11 @@
 /* media quires for small tablets and mobile devices */
 
 @media screen and (max-width: 992px) {
+
+  html{
+    font-size: 12px;
+  }
+
   .nav-section .nav-container {
     width: 99%;
   }
