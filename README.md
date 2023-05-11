@@ -13,7 +13,7 @@ You can view the **live demo** of this website **[here]([https://pages.github.co
 
 ## Installation
 To install this project, simply clone the repository to your local machine:
-git clone https://github.com/dulannadeeja/Social-Media-Website-With-Theme-Customization.git
+```git clone https://github.com/dulannadeeja/Social-Media-Website-With-Theme-Customization.git```
 
 ## Usage
 Once you have cloned the repository, simply open the index.html file in your preferred web browser to view the website. To adjust the theme, click on the "Theme" button located in the sidenav section to open the theme customization window. From there, you can adjust the font size and colors and switch between the light, dim, and lights-out themes.
