@@ -6,10 +6,10 @@ The website is built with **mobile responsiveness** in mind, utilizing **Flexbox
 You can view the **live demo** of this website **[here]([https://pages.github.com/](https://dulannadeeja.github.io/Social-Media-Website-With-Theme-Customization/)).**
 
 ## Features
--- Customize the theme by adjusting font size and colors
--- Switch between light, dim, and lights-out themes
--- Mobile responsiveness using Flexbox, Grid, and relative units
--- Uses Iconscout for icons and a Google font
+- Customize the theme by adjusting font size and colors
+- Switch between light, dim, and lights-out themes
+- Mobile responsiveness using Flexbox, Grid, and relative units
+- Uses Iconscout for icons and a Google font
 
 ## Installation
 To install this project, simply clone the repository to your local machine:
