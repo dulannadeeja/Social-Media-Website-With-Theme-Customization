@@ -85,10 +85,10 @@
                   >
                 </a>
               </li>
-              <li class="sidenav-item notifications">
+              <li class="sidenav-item" id="notifications">
                 <a href="#" class="sidenav-link text-dark">
                   <i class="uil uil-bell font-size-large">
-                    <span class="notification-count badge font-size-small"
+                    <span class="notification-count badge font-size-small" id="notificationCount"
                       >10+</span
                     >
                   </i>
@@ -175,10 +175,10 @@
                 </div>
                 <!-- end notifications popup -->
               </li>
-              <li class="sidenav-item">
+              <li class="sidenav-item" id="messages">
                 <a href="#" class="sidenav-link text-dark">
                   <i class="uil uil-comment-alt font-size-large">
-                    <span class="notification-count badge font-size-small"
+                    <span class="notification-count badge font-size-small" id="messagesCount"
                       >4</span
                     >
                   </i>
@@ -203,7 +203,7 @@
                   >
                 </a>
               </li>
-              <li class="sidenav-item">
+              <li class="sidenav-item" id="theme">
                 <a href="#" class="sidenav-link text-dark">
                   <i class="uil uil-palette font-size-large"></i>
                   <span class="sidenav-link__text font-weight-semiBold"
@@ -579,7 +579,7 @@
                   <div class="active"></div>
                 </div>
                 <div class="message__content">
-                  <h6 class="message__name">Dulan nadeeja</h6>
+                  <h6 class="message__name">Devid akundhas</h6>
                   <p
                     class="message__text font-size-small font-weight-regular text-muted"
                   >
@@ -594,7 +594,7 @@
                   </div>
                 </div>
                 <div class="message__content">
-                  <h6 class="message__name">Dulan nadeeja</h6>
+                  <h6 class="message__name">Leon Bron</h6>
                   <p class="message__text font-size-small font-weight-semiBold">
                     send me the project files?
                   </p>
@@ -757,20 +757,20 @@
 
         <!-- background customize bar -->
         <h6 class="theme-customize-section__titles">Background</h6>
-        <div class="background-customize-bar card">
-          <div class="background-color card active">
+        <ul class="background-customize-bar background-colors-list card">
+          <li class="background-color-item background-color-1 card active">
             <div class="background-color-preview"></div>
             <div class="background-color__title">Light</div>
-          </div>
-          <div class="background-color card">
+          </li>
+          <li class="background-color-item background-color-2 card">
             <div class="background-color-preview"></div>
             <div class="background-color__title">Dim</div>
-          </div>
-          <div class="background-color card">
+          </li>
+          <li class="background-color-item background-color-3 card">
             <div class="background-color-preview"></div>
             <div class="background-color__title">Lights Out</div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </div>
     <!--end theme customize window-->

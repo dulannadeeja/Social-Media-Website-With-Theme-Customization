@@ -33,4 +33,29 @@
   .main-section .feed-section .story-section .story-list .story-item {
     height: clamp(6rem, 10rem, 12rem);
   }
+
+  .theme-controls-container.card {
+    max-width: 80%;
+    padding: 1rem 1.5rem;
+  }
+
+  .theme-customize-section
+    .background-customize-bar.background-colors-list
+    .background-color-item {
+    min-width: 30%;
+    gap: 0.5rem;
+  }
+
+  .theme-customize-section
+  .background-customize-bar.background-colors-list
+  .background-color-item
+  .background-color-preview {
+  display: none;
+}
+
+.theme-customize-section .color-customize-bar .color-list li {
+  width: 1rem;
+  height: 1rem;
+}
+
 }
